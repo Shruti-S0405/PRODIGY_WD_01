@@ -23,19 +23,19 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link" >Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#new" class="nav__link">News</a>
+                        <a href="#new" class="nav__link">Menu</a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">About Us</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#favorite" class="nav__link">Favorites</a>
+                        <a href="#favorite" class="nav__link">Specials</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#visit" class="nav__link">Location</a>
+                        <a href="#visit" class="nav__link">Visit</a>
                     </li>
                 </ul>
                 <!--close button  -->
@@ -62,10 +62,10 @@
             <div class="home__container conatainer grid">
                 <div class="home__data">
                     <h1 class="home__title">
-                        Select The Best <br> Quality Cakes
+                        Indulge in the Finest <br> Flavors of Cakes
                     </h1>
 
-                    <a href="#" class="button">Select Cakes</a>
+                    <a href="#" class="button">Explore Cakes</a>
 
                     <!-- <img src="assets/cake1.png" alt="image" class="home__bread"> -->
                 </div>
@@ -77,7 +77,7 @@
                 <footer class="home__footer">
                     <div class="home__location">
                         <i class="ri-map-pin-line"></i>
-                        <span>Cake Shop NYC <br> New York City</span>
+                        <span>123 Bakery Lane <br> Cityville, Zestland</span>
                     </div>
 
                     <div class="home__social">
@@ -97,43 +97,45 @@
             </div>
          </section>
 
-         <!--==================== NEWS ====================-->
+         <!--==================== MENU ====================-->
          <section class="new section" id="new">
-            <h2 class="section__title">New Cakes</h2>
+            <h2 class="section__title">Our Menu</h2>
 
-            <div class="new__content grid">
+            <div class="new__container container grid">
+                <div class="new__content grid">
                 <article class="new__card">
                     <div class="new__data">
-                        <h2 class="new__title">Red velvet</h2>
+                        <h2 class="new__title">Red Velvet Cake</h2>
                         <p class="new__description">
-                            Baked with healthy, gluten-free 
-                            sourdough for good nutrition
+                            Smooth and velvety, with a hint of cocoa, 
+                            perfect for any celebration.
                         </p>
                     </div>
-                    <img src="assets/cake9.png" alt="image" class="img__img">
+                    <img src="assets/cake8.png" alt="image" class="new__img">
                 </article>
 
                 <article class="new__card">
                     <div class="new__data">
-                        <h2 class="new__title">Whole Grain Cake</h2>
+                        <h2 class="new__title">Chocolate Fudge Cake</h2>
                         <p class="new__description">
-                            Crispy and homemade prepared 
-                            from organic yeast-free flour.
+                            Rich and decadent, made with Belgian chocolate 
+                            for an indulgent treat
                         </p>
                     </div>
-                    <img src="assets/cake2.png" alt="image" class="img__img">
+                    <img src="assets/cake2.png" alt="image" class="new__img">
                 </article>
 
                 <article class="new__card">
                     <div class="new__data">
-                        <h2 class="new__title">Multigrain Cake</h2>
+                        <h2 class="new__title">Carrot Cake</h2>
                         <p class="new__description">
-                            Tasty and made with different 
-                            natural grains from the countryside.
+                            Moist and flavorful, topped with cream cheese 
+                            frosting and a sprinkle of fresh fruits.
                         </p>
                     </div>
-                    <img src="assets/cake7.png" alt="image" class="img__img">
+                    <img src="assets/cake7.png" alt="image" class="new__img">
                 </article>
+                </div>
             </div>
          </section>
 
@@ -144,43 +146,204 @@
                     <h2 class="section__title">About Us</h2>
 
                     <p class="about__description">
-                        We prepare all types of bread that are made at home, 
-                        maintaining the tradition of using only the best 
-                        ingredients made with local products whenever possible. 
-                        We have an extensive line of freshly prepared bakery
-                        and coffee products.
+                        At Zestful Cravings, we pride ourselves on creating cakes 
+                        that not only satisfy your cravings but also delight your senses. 
+                        We use only the finest ingredients, sourced locally whenever possible, 
+                        to bring you the ultimate cake experience.
                     </p>
 
-                    <a href="#" class="button">Know More</a>
+                    <a href="#" class="button">Learn More</a>
 
-                    <img src="assets/cake8.png" alt="image" class="about__breads">
+                    <!-- <img src="assets/cake7.png" alt=""> -->
+
+                    <!-- <img src="assets/cake8.png" alt="image" class="about__breads"> -->
                 </div>
 
                 <img src="assets/about-cake.jpg" alt="" class="about__img">
             </div>
          </section>
          
-         <!--==================== FAVORITES ====================-->
+         <!--==================== SPECIALS ====================-->
          <section class="favorite section" id="favorite">
-            
+            <h2 class="section__title">Specials of the Month</h2>
+            <div class="favorite__container container grid">
+                
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Summer Berry Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$40.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Salted Caramel Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$30.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Pistachio Rose Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$38.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Chocolate Hazelnut Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$45.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Mango Passion Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$30.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+
+                <article class="favorite__card">
+                    <img src="assets/cake2.png" alt="image" class="favorite__img">
+                    <div class="favorite__data">
+                        <h2 class="favorite__title">Coconut Pineapple Cake</h2>
+                        <span class="favorite__title">Cake</span>
+                        <h3 class="favorite__price">$32.00</h3>
+                    </div>
+
+                    <button class="favorite__button button">
+                        <i class="ri-add-line"></i>
+                    </button>
+                </article>
+            </div>
          </section>
 
          <!--==================== VISIT ====================-->
          <section class="visit section" id="visit">
-            
+            <div class="visit__container">
+                <img src="assets/cakeshop2.jpg" alt="image" class="visit__bg">
+                <div class="visit__shadow"></div>
+
+                <div class="visit__content container grid">
+                    <div class="visit__data">
+                        <h2 class="section__title">Visit Us</h2>
+
+                        <p class="visit__description">
+                            Experience the joy of heavenly cakes at our bakery.
+                            We can't wait to welcome you!
+                        </p>
+
+                        <a href="#" class="button">Find Us</a>
+                    </div>
+                </div>
+            </div>
          </section>
       </main>
 
       <!--==================== FOOTER ====================-->
       <footer class="footer">
-         
+         <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">Zestful Cravings</a>
+                <p class="footer__description">
+                    Satisfying your cravings,<br>one slice at a time.
+                </p>
+            </div>
+
+            <div class="footer__content grid">
+                <div>
+                    <h3 class="footer__title">Address</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">123 Bakery Lane <br> Cityville, Zestland</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info">9AM - 9PM</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Contact Me</h3>
+
+                    <ul class="footer__list">
+                        <li>
+                            <address class="footer__info">info@zestfulcravings.com</address>
+                        </li>
+
+                        <li>
+                            <address class="footer__info"> +00 123 456 789</address>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Follow Us</h3>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <img src="assets/berry.png" alt="image" class="footer__img-1">
+            <img src="assets/donuts.png" alt="image" class="footer__img-2"> -->
+         </div>
+
+         <span class="footer__copy">
+            &#169;All Rights Reserved By Zestful Cravings
+         </span>
       </footer>
 
       <!--========== SCROLL UP ==========-->
-      
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
 
       <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
+      <script src="js/scrollreveal.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="js/main.js"></script>
