@@ -675,6 +675,7 @@ visit__description{
 
     .favorite__container{
         grid-template-columns: repeat(2,180px);
+        justify-content: center;
     }
 
     .section__title{
@@ -717,6 +718,7 @@ visit__description{
 
     .favorite__container{
         grid-template-columns: repeat(3,180px);
+        justify-content: center;
     }
 
     .footer__container{
@@ -836,6 +838,7 @@ visit__description{
         padding-top: 5.5rem;
         grid-template-columns: repeat(3, 240px);
         gap: 5.5rem 2rem;
+        justify-content: center;
     }
 
     .favorite__card{
