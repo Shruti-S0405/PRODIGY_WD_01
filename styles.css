@@ -7,9 +7,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(290, 39%, 79%);
-  --first-color-alt: hsl(282, 37%, 69%);
-  --title-color: hsl(0, 53%, 77%);
+  --first-color: hsl(30, 100%, 50%);
+  --first-color-alt: hsl(12, 100%, 50%);
+  --title-color: hsl(52, 83%, 77%);
   --text-color: hsl(0, 0%, 75%);
   --text-color-light: hsl(0, 0%, 65%);
   --black-color: hsl(0, 0%, 6%);
@@ -19,8 +19,10 @@
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   /* --third-font: "Dancing Script", cursive; */
-  --body-font: " La belle Aurore", serif;
-  --second-font: "Dancing Script", cursive;
+  --second-font:" La belle Aurore", serif;
+  --body-font:  "Dancing Script", cursive;
+
+  /* --body-font:  */
   /* --second-font: "Windsong", cursive; */
   --biggest-font-size: 3rem;
   --bigger-font-size: 2rem;
@@ -188,6 +190,7 @@ img {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     transition: color .4s;
+    font-size: var(--h2-font-size)
 }
 
 .nav__link:hover{
@@ -281,6 +284,8 @@ img {
     font-size: var(--biggest-font-size);
     font-family: var(--second-font);
     margin-bottom: 1.5rem;
+    -webkit-text-stroke: 1px var(--first-color);
+    
 }
 
 .home__bread{
@@ -293,7 +298,13 @@ img {
 .home__image{
     max-width: 400px;
     justify-self: center;
+    /* border: 10px var(--title-color); */
+
 }
+
+/* .home__image img{
+    border: 5px var(--title-color)
+} */
 
 /* .home__img{
     rotate:15deg;
@@ -356,6 +367,7 @@ img {
 .new__container{
     padding-top: 1.5rem;
     row-gap: 3.5rem;
+    
 }
 
 .new__content{
@@ -366,10 +378,13 @@ img {
     display: flex;
     column-gap: 1rem;
     align-items: center;
+    
+
 }
 
 .new__img{
     width:250px;
+    
 }
 
 .new__title{
@@ -377,6 +392,7 @@ img {
     font-family: var(--second-font);
     color: var(--first-color);
     margin-bottom: .5rem;
+    /* text-decoration: underline; */
 }
 
 .new__description{
@@ -405,6 +421,7 @@ img {
 .about__description{
     margin-bottom: 3rem;
     line-height: 1.5;
+    font-size: var(--h2-font-size)
 
 }
 
@@ -418,6 +435,7 @@ img {
 .about__img{
     width: 320px;
     justify-self: center;
+    /* border: 2px solid var(--title-color) */
 }
 /*=============== FAVORITES ===============*/
 
@@ -448,7 +466,8 @@ img {
 .favorite__title{
     font-size: var(--h2-font-size);
     font-family: var(--second-font);
-    color: var(--first-color)
+    color: var(--first-color);
+    /* text-decoration: underline; */
 }
 
 .favorite__subtitle{
@@ -500,10 +519,11 @@ img {
 }
 
 .visit__data{
-    text-align: center;;
+    text-align: center;
+    
 }
 
-visit__description{
+.visit__description{
     font-size: var(--h2-font-size);
     color: var(--title-color);
     margin-bottom: 3rem;
